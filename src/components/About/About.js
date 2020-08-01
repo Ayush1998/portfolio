@@ -48,7 +48,7 @@ export default function About() {
                     applications using MERN stack.
                   </p>
                   <p>
-                    I'm also enthusiast to learn more about{" "}
+                    I'm also enthusiastic to learn more about{" "}
                     <span>Cyber Security.</span>
                   </p>
                 </div>
@@ -69,7 +69,7 @@ export default function About() {
                       community, 2018
                     </li>
                     <li>
-                      2. Web developer intern in <span>Techno Softwares</span>,
+                      2. Web developer intern at <span>Techno Softwares</span>,
                       2019
                     </li>
                     <li>
