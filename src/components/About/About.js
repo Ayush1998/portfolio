@@ -81,7 +81,7 @@ export default function About() {
                       <span>NodeJS, Express and MongoDB</span>: Coursera
                     </li>
                     <li>
-                      5. <span>Secretary: </span>M%DC, Institute Dance Club
+                      5. <span>Secretary: </span>M5DC, Institute Dance Club
                     </li>
                   </ul>
                 </div>
