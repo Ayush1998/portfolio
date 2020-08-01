@@ -13,7 +13,7 @@ export default function About() {
         setAbout(true);
       } else if (
         window.innerWidth <= 768 &&
-        last_known_scroll_position >= 1850
+        last_known_scroll_position >= 2700
       ) {
         setAbout(true);
       }

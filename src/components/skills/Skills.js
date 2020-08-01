@@ -81,11 +81,11 @@ export default function Skills() {
     window.addEventListener("scroll", () => {
       let last_known_scroll_position = window.scrollY;
       console.log(last_known_scroll_position);
-      if (window.innerWidth > 800 && last_known_scroll_position >= 750) {
+      if (window.innerWidth > 800 && last_known_scroll_position >= 1300) {
         setCloud(true);
       } else if (
         window.innerWidth <= 800 &&
-        last_known_scroll_position >= 1350
+        last_known_scroll_position >= 1750
       ) {
         setCloud(true);
       }
