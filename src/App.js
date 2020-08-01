@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Particle from "./Particle";
+import Header from "./components/header/Header";
+import About from "./components/About/About";
+import Home from "./components/home/Home";
+import Work from "./components/Work/Work";
+import Skills from "./components/skills/Skills";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main">
+        <Header />
+        <Home />
+        <Work />
+        <Skills />
+        <About />
+        <Contact />
+      </div>
+
+      <div className="footer">&copy; 2020 Made by Ayush Mudgal</div>
+      <Particle />
     </div>
   );
 }

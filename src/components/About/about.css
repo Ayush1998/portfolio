@@ -1,0 +1,123 @@
+.about_me {
+  background: transparent;
+  position: relative;
+  height: 100vh;
+
+  z-index: 1;
+}
+
+.about_title {
+  background: transparent;
+  position: relative;
+  padding-top: 80px;
+  padding-left: 200px;
+}
+
+.about_title h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.about_title h1::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: skyblue;
+}
+
+.about_title h1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 55%;
+  width: 80px;
+  height: 2px;
+  background: skyblue;
+}
+
+.about_content {
+  background: transparent;
+  margin-top: 60px;
+}
+
+.achievements {
+  background: transparent;
+  position: relative;
+  display: inline-block;
+  border: 1px solid skyblue;
+  background: transparent !important;
+  width: 100%;
+  height: 100%;
+}
+
+.achievements h3 {
+  color: #ed553b !important;
+  font-size: 2rem;
+}
+
+.my_sec span,
+.achievements span {
+  color: aqua !important;
+}
+
+.my_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.my_sec p {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.achievements h3 {
+  margin-top: 10px;
+}
+
+.row,
+.column,
+p,
+li {
+  background: transparent !important;
+}
+.achievements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievements ul {
+  background: transparent;
+  list-style-type: none;
+}
+
+.achievements ul li {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about_title {
+    background: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 0 !important;
+  }
+
+  .about_me {
+    background: transparent;
+    position: relative;
+    height: -webkit-fill-available;
+
+    z-index: 1;
+  }
+
+  .achievements {
+    margin-top: 20px;
+  }
+}

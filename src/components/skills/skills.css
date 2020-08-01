@@ -1,0 +1,84 @@
+.skills {
+  background: transparent;
+  position: relative;
+  height: -webkit-fill-available;
+
+  z-index: 1;
+}
+
+.tech_title {
+  background: transparent;
+  position: relative;
+  padding-top: 80px;
+  padding-left: 200px;
+}
+
+.tech_title h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.tech_title h1::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: skyblue;
+}
+
+.tech_title h1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 55%;
+  width: 80px;
+  height: 2px;
+  background: skyblue;
+}
+
+.cloud_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.word_cloud,
+.word_cloud div,
+.word_cloud div svg {
+  background: transparent !important;
+}
+.word_cloud div svg {
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    background: transparent;
+    position: relative;
+
+    z-index: 1;
+  }
+  .word_cloud div svg {
+    margin-top: 10px;
+  }
+
+  .tech_title {
+    background: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 0 !important;
+  }
+
+  .tech_title h1 {
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
