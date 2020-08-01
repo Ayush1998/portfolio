@@ -6,10 +6,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
 } from "reactstrap";
 import "./Header.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Logo from "../../images/logo.jpeg";
 
 const Header = () => {
