@@ -22,7 +22,7 @@ export default function Contact() {
             <div className="container section">
               <div className="contact_text">
                 <h1>Want to connect or work together?</h1>
-                <h2>Feel free to reach me, just ping me at</h2>
+                <h2>Feel free to reach me. Ping me at</h2>
               </div>
               <div className="contact_email">
                 <a href="mailto:@ayushmudgal11@gmail.com">
