@@ -80,7 +80,6 @@ export default function Skills() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       let last_known_scroll_position = window.scrollY;
-      console.log(last_known_scroll_position);
       if (window.innerWidth > 800 && last_known_scroll_position >= 1300) {
         setCloud(true);
       } else if (

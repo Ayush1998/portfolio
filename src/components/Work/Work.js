@@ -11,7 +11,6 @@ export default function Work() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       let last_known_scroll_position = window.scrollY;
-      console.log(last_known_scroll_position);
       if (last_known_scroll_position >= 200) {
         setVisible(true);
       }

@@ -8,7 +8,6 @@ export default function About() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       let last_known_scroll_position = window.scrollY;
-      console.log(last_known_scroll_position);
       if (window.innerWidth > 768 && last_known_scroll_position >= 1700) {
         setAbout(true);
       } else if (
