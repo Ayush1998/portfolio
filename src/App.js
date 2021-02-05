@@ -9,6 +9,7 @@ import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 
 function App() {
+  console.log('ayush')
   return (
     <div className="App">
       <div className="main">
